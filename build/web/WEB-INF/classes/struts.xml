@@ -1,0 +1,24 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <!-- Configuration for the default package. -->
+    <package name="default" extends="struts-default">
+        <action name="login" class="controller.AuthenticationActionSupport" method="login">
+            <result name="success">/index.jsp</result>
+            <result name="input">/login.jsp</result>
+        </action>
+        <action name="logout" class="controller.AuthenticationActionSupport" method="logout">
+            <result name="success">/login.jsp</result>
+        </action>
+        <action name="reader_read" class="controller.ReaderActionSupport" method="read">
+            <result name="success">/reader/reader_list.jsp</result>
+        </action>
+        <action name="reader_create" class="controller.ReaderActionSupport" method="create">
+            <result name="success">/reader/reader_list.jsp</result>
+            <result name="fail">/reader/error.jsp</result>
+        </action>
+    </package>
+    <constant name="struts.ui.theme" value="simple"/>
+</struts>

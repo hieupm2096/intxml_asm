@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<ReaderData>
+    <reader>
+        <id>5580909</id>
+        <name>Hieu Pham</name>
+        <email>hieupm2096@gmail.com</email>
+        <phone>0122336600</phone>
+        <dob>1996-09-20</dob>
+        <address>Hanoi</address>
+        <gender>true</gender>
+        <status>true</status>
+    </reader>
+    <reader>
+        <id>7021285</id>
+        <name>Stella Hill</name>
+        <email>stelley0212@gmail.com</email>
+        <phone>0912112121</phone>
+        <dob>1981-05-31</dob>
+        <address>Hanoi</address>
+        <gender>false</gender>
+        <status>true</status>
+    </reader>
+    <reader>
+        <id>3388735</id>
+        <name>Tri Pham</name>
+        <email>triph6@gmail.com</email>
+        <phone>0913090091</phone>
+        <dob>1996-05-07</dob>
+        <address>Hanoi</address>
+        <gender>true</gender>
+        <status>true</status>
+    </reader>
+</ReaderData>
+
